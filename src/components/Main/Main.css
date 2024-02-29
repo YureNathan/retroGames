@@ -1,0 +1,27 @@
+
+body{
+  background-color: #E8E8E8;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px blue solid;
+ }
+
+ #container-details {
+  padding: 20px 0;
+
+ }
+
+ .card {
+  
+  background-color: #fff;
+  padding: 20px;
+ }
+
+ .card img {
+  width: 20vw;
+  height: 25vh;
+  border: 2px red solid;
+ }
