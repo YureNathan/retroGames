@@ -5,8 +5,12 @@ body{
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  max-width: 80%;
+  margin: 0 auto; 
   border: 2px blue solid;
+  height: 100%;
+  flex-wrap: wrap;
+  gap: 25px;
  }
 
  #container-details {
@@ -15,7 +19,7 @@ body{
  }
 
  .card {
-  
+  border: 2px red solid;
   background-color: #fff;
   padding: 20px;
  }
@@ -23,5 +27,5 @@ body{
  .card img {
   width: 20vw;
   height: 25vh;
-  border: 2px red solid;
+ 
  }
