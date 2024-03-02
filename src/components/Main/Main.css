@@ -5,9 +5,7 @@ body{
 .container {
   display: flex;
   justify-content: center;
-  max-width: 80%;
   margin: 0 auto; 
-  border: 2px blue solid;
   height: 100%;
   flex-wrap: wrap;
   gap: 25px;
@@ -19,9 +17,10 @@ body{
  }
 
  .card {
-  border: 2px red solid;
+  border: 1px solid gray;
   background-color: #fff;
   padding: 20px;
+  border-radius: 12px;
  }
 
  .card img {
